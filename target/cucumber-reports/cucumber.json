@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-06T14:33:34.916Z",
+        "start_timestamp": "2021-10-06T15:15:00.713Z",
         "before": [
           {
             "result": {
-              "duration": 3427695600,
+              "duration": 2226143800,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 288698600,
+              "duration": 317296500,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8437247500,
+              "duration": 7833651700,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1965262900,
+              "duration": 1435859900,
               "status": "passed"
             },
             "line": 7,
@@ -89,8 +89,9 @@
           },
           {
             "result": {
-              "duration": 250611900,
-              "status": "passed"
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[41,775]\u003e but was:\u003c[$479,000]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat PageMethods.HomePage.clickAndButtonAndVerifyEstimatedLoanAmount(HomePage.java:74)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(TestStepDefinitions.java:38)\r\n\tat ✽.user will verify the eatimated loan Amount with \"$479,000\"(file:src/test/resources/features/UIScenarios.feature:10)\r\n",
+              "duration": 188966900,
+              "status": "failed"
             },
             "line": 10,
             "name": "user will verify the eatimated loan Amount with \"$479,000\"",
@@ -116,11 +117,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-06T14:33:49.359Z",
+        "start_timestamp": "2021-10-06T15:15:12.774Z",
         "before": [
           {
             "result": {
-              "duration": 1896337800,
+              "duration": 1397223400,
               "status": "passed"
             },
             "match": {
@@ -135,7 +136,7 @@
         "after": [
           {
             "result": {
-              "duration": 4128602900,
+              "duration": 4079632200,
               "status": "passed"
             },
             "match": {
@@ -148,7 +149,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5754910000,
+              "duration": 10885569700,
               "status": "passed"
             },
             "line": 14,
@@ -160,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 1243948100,
+              "duration": 937584900,
               "status": "passed"
             },
             "line": 15,
@@ -202,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 355843500,
+              "duration": 283030400,
               "status": "passed"
             },
             "line": 18,
@@ -223,11 +224,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-06T14:34:02.743Z",
+        "start_timestamp": "2021-10-06T15:15:30.362Z",
         "before": [
           {
             "result": {
-              "duration": 1764801000,
+              "duration": 1514283600,
               "status": "passed"
             },
             "match": {
@@ -242,7 +243,7 @@
         "after": [
           {
             "result": {
-              "duration": 459782000,
+              "duration": 4115415800,
               "status": "passed"
             },
             "match": {
@@ -255,7 +256,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10555299600,
+              "duration": 7933022600,
               "status": "passed"
             },
             "line": 22,
@@ -267,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 440317500,
+              "duration": 197128100,
               "status": "passed"
             },
             "line": 23,
@@ -291,8 +292,9 @@
           },
           {
             "result": {
-              "duration": 321843500,
-              "status": "passed"
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c...ns, call us on 1800 [035 500].\u003e but was:\u003c...ns, call us on 1800 [100 641].\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat PageMethods.HomePage.verifyReturnMessage(HomePage.java:110)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button(TestStepDefinitions.java:48)\r\n\tat ✽.user will verify the message after clicking Work out how much I could borrow button(file:src/test/resources/features/UIScenarios.feature:26)\r\n",
+              "duration": 277302000,
+              "status": "failed"
             },
             "line": 26,
             "name": "user will verify the message after clicking Work out how much I could borrow button",

@@ -11,6 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 import io.cucumber.datatable.DataTable;
+import junit.framework.Assert;
 import locators.HomePageLoc;
 import utilities.CommonUtils;
 import utilities.Log;
@@ -68,11 +69,10 @@ public class HomePage extends CommonUtils{
 			clickOn(driver.findElement(HomePageLoc.btn_BorrowCalculater));
 			waitForElement(waitTime, driver.findElement(HomePageLoc.txt_EstimatedBorrowAmount));
 			String amt = driver.findElement(HomePageLoc.txt_EstimatedBorrowAmount).getText().replace("$","");
-			if(amt.equals(amount)) {
-				Log.info("Calculated Amount and Expected Amount Matched" +amount);
-			}else {
-				Log.error("Calculated Amount("+amt+") and Expected Amount("+amount+") is not Matched");
-			}
+			System.out.println("Expected Amount: " +amount);
+			System.out.println("Actual displayed: " +amt);
+			Assert.assertEquals(amt, amount);
+			Log.info("Calculated Amount and Expected Amount Matched" +amount);
 		}catch (Exception e) {
 			Log.error("Error in clickAndButtonAndVerifyEstimatedLoanAmount" +e);
 		}
@@ -105,13 +105,10 @@ public class HomePage extends CommonUtils{
 			waitForElement(waitTime, driver.findElement(HomePageLoc.msg_ReturnMsg));
 			isElementDisplayed(driver.findElement(HomePageLoc.msg_ReturnMsg));
 			String text = driver.findElement(HomePageLoc.msg_ReturnMsg).getText();
-			if (text.equalsIgnoreCase(getConfigProperty("message"))) {
-				Log.info("Successfully verified the expected message" +text);
-			}else {
-				Log.info("Actual message: " +text);
-				Log.info("Expected message: " +getConfigProperty("message"));
-				Log.error("failed to verified the expected message" +text);
-			}
+			System.out.println("Expected: " +getConfigProperty("message"));
+			System.out.println("Actual: " +text);
+			Assert.assertEquals(text, getConfigProperty("message"));
+			Log.info("Successfully verified the expected message" +text);
 		}catch (Exception e) {
 			Log.error("Error in verifyPageLoaded" +e);
 		}
