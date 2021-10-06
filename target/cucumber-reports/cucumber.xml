@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="41.367445">
+<testcase classname="UI automation Scenarios" name="verify that the calculator working with User Input" time="14.437116">
+<system-out><![CDATA[Given user navigate to site.................................................passed
+And user fill the below fields..............................................passed
+Then user will verify the eatimated loan Amount with "$479,000".............passed
+]]></system-out>
+</testcase>
+<testcase classname="UI automation Scenarios" name="verify that the calculator working with User Input 2" time="13.384459">
+<system-out><![CDATA[Given user navigate to site.................................................passed
+And user fill the below fields..............................................passed
+Then user will verify clicking start over button clear the form.............passed
+]]></system-out>
+</testcase>
+<testcase classname="UI automation Scenarios" name="verify that the calculator working with User Input 3" time="13.54587">
+<system-out><![CDATA[Given user navigate to site.................................................passed
+And user fill the below fields..............................................passed
+Then user will verify the message after clicking Work out how much I could borrow button.passed
+]]></system-out>
+</testcase>
+</testsuite>

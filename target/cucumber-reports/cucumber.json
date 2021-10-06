@@ -1,0 +1,331 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-06T14:33:34.916Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3427695600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinitions.browserSetup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify that the calculator working with User Input",
+        "description": "",
+        "id": "ui-automation-scenarios;verify-that-the-calculator-working-with-user-input",
+        "after": [
+          {
+            "result": {
+              "duration": 288698600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinitions.exit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8437247500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate to site",
+            "match": {
+              "location": "TestStepDefinitions.user_navigate_to_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1965262900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fill the below fields",
+            "match": {
+              "location": "TestStepDefinitions.user_fill_the_below_fields(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Application type",
+                  "Number of dependants",
+                  "Property you would like to buy",
+                  "Your income (before tax)",
+                  "Your other income",
+                  "Living expenses",
+                  "Current home loan repayments",
+                  "Other loan repayments",
+                  "Other commitments",
+                  "Total credit card limits"
+                ]
+              },
+              {
+                "cells": [
+                  "Single",
+                  "0",
+                  "Home to live in",
+                  "80000",
+                  "10000",
+                  "500",
+                  "0",
+                  "100",
+                  "0",
+                  "10000"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250611900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user will verify the eatimated loan Amount with \"$479,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$479,000\"",
+                  "offset": 48
+                }
+              ],
+              "location": "TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AutomationTask"
+          },
+          {
+            "name": "@Task1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-06T14:33:49.359Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1896337800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinitions.browserSetup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "verify that the calculator working with User Input",
+        "description": "",
+        "id": "ui-automation-scenarios;verify-that-the-calculator-working-with-user-input",
+        "after": [
+          {
+            "result": {
+              "duration": 4128602900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinitions.exit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5754910000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user navigate to site",
+            "match": {
+              "location": "TestStepDefinitions.user_navigate_to_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1243948100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user fill the below fields",
+            "match": {
+              "location": "TestStepDefinitions.user_fill_the_below_fields(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Application type",
+                  "Number of dependants",
+                  "Property you would like to buy",
+                  "Your income (before tax)",
+                  "Your other income",
+                  "Living expenses",
+                  "Current home loan repayments",
+                  "Other loan repayments",
+                  "Other commitments",
+                  "Total credit card limits"
+                ]
+              },
+              {
+                "cells": [
+                  "Single",
+                  "0",
+                  "Home to live in",
+                  "80000",
+                  "10000",
+                  "500",
+                  "0",
+                  "100",
+                  "0",
+                  "10000"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355843500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user will verify clicking start over button clear the form",
+            "match": {
+              "location": "TestStepDefinitions.user_will_verify_clicking_start_over_button_clear_the_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AutomationTask"
+          },
+          {
+            "name": "@Task2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-06T14:34:02.743Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1764801000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinitions.browserSetup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "verify that the calculator working with User Input",
+        "description": "",
+        "id": "ui-automation-scenarios;verify-that-the-calculator-working-with-user-input",
+        "after": [
+          {
+            "result": {
+              "duration": 459782000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestStepDefinitions.exit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10555299600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user navigate to site",
+            "match": {
+              "location": "TestStepDefinitions.user_navigate_to_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 440317500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user fill the below fields",
+            "match": {
+              "location": "TestStepDefinitions.user_fill_the_below_fields(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Living expenses"
+                ]
+              },
+              {
+                "cells": [
+                  "1"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321843500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user will verify the message after clicking Work out how much I could borrow button",
+            "match": {
+              "location": "TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AutomationTask"
+          },
+          {
+            "name": "@Task3"
+          }
+        ]
+      }
+    ],
+    "name": "UI automation Scenarios",
+    "description": "",
+    "id": "ui-automation-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UIScenarios.feature",
+    "tags": [
+      {
+        "name": "@AutomationTask",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
