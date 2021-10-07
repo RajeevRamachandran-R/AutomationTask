@@ -1,52 +1,56 @@
-2021-10-06 20:45:00,808  INFO [main] CommonUtils:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of waitTime from Test Configuration file : 60
-2021-10-06 20:45:02,976  INFO [main] TestStepDefinitions:62 - utilities.Driverinitializer:getDriver 18 ::  Browser launched
-2021-10-06 20:45:02,983  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
-2021-10-06 20:45:10,805  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of homePageTitle from Test Configuration file : Home loan borrowing power calculator | ANZ
-2021-10-06 20:45:10,806  INFO [main] HomePage:62 - utilities.CommonUtils:verifyPageTitle 74 ::  Verifying Page Title
-2021-10-06 20:45:10,814  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
-2021-10-06 20:45:10,814  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:verifyPageLoaded 27 ::  Navigated to the https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/ pages
-2021-10-06 20:45:11,035  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
-2021-10-06 20:45:11,224  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
-2021-10-06 20:45:11,247  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:11,373  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:11,564  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:11,708  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:11,874  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:11,989  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:12,137  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:12,379  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
-2021-10-06 20:45:12,394  INFO [main] HomePage:62 - utilities.CommonUtils:waitForElement 63 ::  Waiting for element visible
-2021-10-06 20:45:14,173  INFO [main] TestStepDefinitions:62 - utilities.Driverinitializer:getDriver 18 ::  Browser launched
-2021-10-06 20:45:14,176  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
-2021-10-06 20:45:25,054  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of homePageTitle from Test Configuration file : Home loan borrowing power calculator | ANZ
-2021-10-06 20:45:25,054  INFO [main] HomePage:62 - utilities.CommonUtils:verifyPageTitle 74 ::  Verifying Page Title
-2021-10-06 20:45:25,059  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
-2021-10-06 20:45:25,060  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:verifyPageLoaded 27 ::  Navigated to the https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/ pages
-2021-10-06 20:45:25,139  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
-2021-10-06 20:45:25,247  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
-2021-10-06 20:45:25,265  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:25,374  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:25,548  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:25,642  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:25,734  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:25,830  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:25,911  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:26,062  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
-2021-10-06 20:45:26,076  INFO [main] HomePage:62 - utilities.CommonUtils:waitForElement 63 ::  Waiting for element visible
-2021-10-06 20:45:26,112  INFO [main] HomePage:62 - utilities.CommonUtils:isElementDisplayed 43 ::  Verifying element is displayed
-2021-10-06 20:45:26,214  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
-2021-10-06 20:45:26,230  INFO [main] HomePage:62 - utilities.CommonUtils:verifyElementDisapear 110 ::  Waiting for element Invisible
-2021-10-06 20:45:26,266  INFO [main] HomePage:62 - utilities.CommonUtils:verifyElementDisapear 110 ::  Waiting for element Invisible
-2021-10-06 20:45:26,281 ERROR [main] TestStepDefinitions:46 - PageMethods.HomePage:verifyStartOverButtonClearTheForm 94 ::  failed to Cleared form by using StartOver button
-2021-10-06 20:45:31,877  INFO [main] TestStepDefinitions:62 - utilities.Driverinitializer:getDriver 18 ::  Browser launched
-2021-10-06 20:45:31,880  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
-2021-10-06 20:45:39,803  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of homePageTitle from Test Configuration file : Home loan borrowing power calculator | ANZ
-2021-10-06 20:45:39,804  INFO [main] HomePage:62 - utilities.CommonUtils:verifyPageTitle 74 ::  Verifying Page Title
-2021-10-06 20:45:39,810  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
-2021-10-06 20:45:39,811  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:verifyPageLoaded 27 ::  Navigated to the https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/ pages
-2021-10-06 20:45:39,913  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
-2021-10-06 20:45:40,182  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
-2021-10-06 20:45:40,213  INFO [main] HomePage:62 - utilities.CommonUtils:waitForElement 63 ::  Waiting for element visible
-2021-10-06 20:45:40,243  INFO [main] HomePage:62 - utilities.CommonUtils:isElementDisplayed 43 ::  Verifying element is displayed
-2021-10-06 20:45:40,284  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of message from Test Configuration file : Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.
-2021-10-06 20:45:40,285  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of message from Test Configuration file : Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.
+2021-10-07 12:06:49,810  INFO [main] CommonUtils:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of waitTime from Test Configuration file : 60
+2021-10-07 12:06:52,197  INFO [main] TestStepDefinitions:62 - utilities.Driverinitializer:getDriver 18 ::  Browser launched
+2021-10-07 12:06:52,203  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
+2021-10-07 12:06:57,324  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of homePageTitle from Test Configuration file : Home loan borrowing power calculator | ANZ
+2021-10-07 12:06:57,325  INFO [main] HomePage:62 - utilities.CommonUtils:verifyPageTitle 74 ::  Verifying Page Title
+2021-10-07 12:06:57,336  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
+2021-10-07 12:06:57,337  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:verifyPageLoaded 28 ::  Navigated to the https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/ pages
+2021-10-07 12:06:57,495  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
+2021-10-07 12:06:57,728  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
+2021-10-07 12:06:57,755  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:06:57,902  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:06:58,153  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:06:58,352  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:06:58,518  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:06:58,654  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:06:58,817  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:06:59,102  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
+2021-10-07 12:06:59,120  INFO [main] HomePage:62 - utilities.CommonUtils:waitForElement 63 ::  Waiting for element visible
+2021-10-07 12:06:59,174  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:clickAndButtonAndVerifyEstimatedLoanAmount 73 ::  Expected Amount: $479,000
+2021-10-07 12:06:59,175  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:clickAndButtonAndVerifyEstimatedLoanAmount 74 ::  Actual Amount: $508,000
+2021-10-07 12:07:01,118  INFO [main] TestStepDefinitions:62 - utilities.Driverinitializer:getDriver 18 ::  Browser launched
+2021-10-07 12:07:01,121  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
+2021-10-07 12:07:05,919  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of homePageTitle from Test Configuration file : Home loan borrowing power calculator | ANZ
+2021-10-07 12:07:05,920  INFO [main] HomePage:62 - utilities.CommonUtils:verifyPageTitle 74 ::  Verifying Page Title
+2021-10-07 12:07:05,931  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
+2021-10-07 12:07:05,931  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:verifyPageLoaded 28 ::  Navigated to the https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/ pages
+2021-10-07 12:07:06,048  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
+2021-10-07 12:07:06,247  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
+2021-10-07 12:07:06,274  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:07:06,415  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:07:06,579  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:07:06,714  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:07:06,807  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:07:06,917  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:07:07,024  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:07:07,233  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
+2021-10-07 12:07:07,257  INFO [main] HomePage:62 - utilities.CommonUtils:waitForElement 63 ::  Waiting for element visible
+2021-10-07 12:07:07,293  INFO [main] HomePage:62 - utilities.CommonUtils:isElementDisplayed 43 ::  Verifying element is displayed
+2021-10-07 12:07:07,404  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
+2021-10-07 12:07:07,425  INFO [main] HomePage:62 - utilities.CommonUtils:verifyElementDisapear 110 ::  Waiting for element Invisible
+2021-10-07 12:07:07,457  INFO [main] HomePage:62 - utilities.CommonUtils:verifyElementDisapear 110 ::  Waiting for element Invisible
+2021-10-07 12:07:07,486 ERROR [main] TestStepDefinitions:46 - PageMethods.HomePage:verifyStartOverButtonClearTheForm 95 ::  failed to Cleared form by using StartOver button
+2021-10-07 12:07:13,087  INFO [main] TestStepDefinitions:62 - utilities.Driverinitializer:getDriver 18 ::  Browser launched
+2021-10-07 12:07:13,089  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
+2021-10-07 12:07:17,660  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of homePageTitle from Test Configuration file : Home loan borrowing power calculator | ANZ
+2021-10-07 12:07:17,661  INFO [main] HomePage:62 - utilities.CommonUtils:verifyPageTitle 74 ::  Verifying Page Title
+2021-10-07 12:07:17,669  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of url from Test Configuration file : https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
+2021-10-07 12:07:17,670  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:verifyPageLoaded 28 ::  Navigated to the https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/ pages
+2021-10-07 12:07:17,797  INFO [main] HomePage:62 - utilities.CommonUtils:sendValue 34 ::  Sending Value to the Element
+2021-10-07 12:07:18,170  INFO [main] HomePage:62 - utilities.CommonUtils:clickOn 20 ::  Above element Clicked
+2021-10-07 12:07:18,211  INFO [main] HomePage:62 - utilities.CommonUtils:waitForElement 63 ::  Waiting for element visible
+2021-10-07 12:07:18,246  INFO [main] HomePage:62 - utilities.CommonUtils:isElementDisplayed 43 ::  Verifying element is displayed
+2021-10-07 12:07:18,313  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of message from Test Configuration file : Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.
+2021-10-07 12:07:18,313  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:verifyReturnMessage 109 ::  Expected: Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.
+2021-10-07 12:07:18,314  INFO [main] TestStepDefinitions:62 - PageMethods.HomePage:verifyReturnMessage 110 ::  Actual: Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500.
+2021-10-07 12:07:18,315  INFO [main] HomePage:62 - utilities.CommonUtils:getConfigProperty 103 ::  Getting value of message from Test Configuration file : Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.
