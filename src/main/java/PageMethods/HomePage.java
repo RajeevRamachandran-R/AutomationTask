@@ -68,10 +68,10 @@ public class HomePage extends CommonUtils{
 			driver.manage().timeouts().implicitlyWait(waitTime, TimeUnit.SECONDS);
 			clickOn(driver.findElement(HomePageLoc.btn_BorrowCalculater));
 			waitForElement(waitTime, driver.findElement(HomePageLoc.txt_EstimatedBorrowAmount));
-			String amt = driver.findElement(HomePageLoc.txt_EstimatedBorrowAmount).getText().replace("$","");
-			System.out.println("Expected Amount: " +amount);
-			System.out.println("Actual displayed: " +amt);
-			Assert.assertEquals(amt, amount);
+			String actualAmt = driver.findElement(HomePageLoc.txt_EstimatedBorrowAmount).getText();
+			Log.info("Expected Amount: " +amount);
+			Log.info("Actual displayed: " +actualAmt);
+			Assert.assertEquals(Integer.parseInt(actualAmt.replaceAll("[\\$,]","")), Integer.parseInt(amount.replaceAll("[\\$,]","")));
 			Log.info("Calculated Amount and Expected Amount Matched" +amount);
 		}catch (Exception e) {
 			Log.error("Error in clickAndButtonAndVerifyEstimatedLoanAmount" +e);
@@ -105,8 +105,8 @@ public class HomePage extends CommonUtils{
 			waitForElement(waitTime, driver.findElement(HomePageLoc.msg_ReturnMsg));
 			isElementDisplayed(driver.findElement(HomePageLoc.msg_ReturnMsg));
 			String text = driver.findElement(HomePageLoc.msg_ReturnMsg).getText();
-			System.out.println("Expected: " +getConfigProperty("message"));
-			System.out.println("Actual: " +text);
+			Log.info("Expected: " +getConfigProperty("message"));
+			Log.info("Actual: " +text);
 			Assert.assertEquals(text, getConfigProperty("message"));
 			Log.info("Successfully verified the expected message" +text);
 		}catch (Exception e) {
