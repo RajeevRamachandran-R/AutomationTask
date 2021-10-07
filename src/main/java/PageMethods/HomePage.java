@@ -70,8 +70,8 @@ public class HomePage extends CommonUtils{
 			waitForElement(waitTime, driver.findElement(HomePageLoc.txt_EstimatedBorrowAmount));
 			String actualAmt = driver.findElement(HomePageLoc.txt_EstimatedBorrowAmount).getText();
 			Log.info("Expected Amount: " +amount);
-			Log.info("Actual displayed: " +actualAmt);
-			Assert.assertEquals(Integer.parseInt(actualAmt.replaceAll("[\\$,]","")), Integer.parseInt(amount.replaceAll("[\\$,]","")));
+			Log.info("Actual Amount: " +actualAmt);
+			Assert.assertEquals(Integer.parseInt(amount.replaceAll("[\\$,]","")), Integer.parseInt(actualAmt.replaceAll("[\\$,]","")));
 			Log.info("Calculated Amount and Expected Amount Matched" +amount);
 		}catch (Exception e) {
 			Log.error("Error in clickAndButtonAndVerifyEstimatedLoanAmount" +e);
@@ -105,9 +105,9 @@ public class HomePage extends CommonUtils{
 			waitForElement(waitTime, driver.findElement(HomePageLoc.msg_ReturnMsg));
 			isElementDisplayed(driver.findElement(HomePageLoc.msg_ReturnMsg));
 			String text = driver.findElement(HomePageLoc.msg_ReturnMsg).getText();
-			Log.info("Expected: " +getConfigProperty("message"));
-			Log.info("Actual: " +text);
-			Assert.assertEquals(text, getConfigProperty("message"));
+			Log.info("Expected Msg: " +getConfigProperty("message"));
+			Log.info("Actual Msg: " +text);
+			Assert.assertEquals(getConfigProperty("message"), text);
 			Log.info("Successfully verified the expected message" +text);
 		}catch (Exception e) {
 			Log.error("Error in verifyPageLoaded" +e);
