@@ -68,6 +68,7 @@ public class HomePage extends CommonUtils{
 			driver.manage().timeouts().implicitlyWait(waitTime, TimeUnit.SECONDS);
 			clickOn(driver.findElement(HomePageLoc.btn_BorrowCalculater));
 			waitForElement(waitTime, driver.findElement(HomePageLoc.txt_EstimatedBorrowAmount));
+			Thread.sleep(2);
 			String actualAmt = driver.findElement(HomePageLoc.txt_EstimatedBorrowAmount).getText();
 			Log.info("Expected Amount: " +amount);
 			Log.info("Actual Amount: " +actualAmt);
