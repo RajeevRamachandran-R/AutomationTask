@@ -15,8 +15,8 @@ Questions
 1.	What other tests would you suggest could be written? You do not need to write them out in detail or code them.
     Ans: 
     1. We can Create resusables for the common/gentric actions
-    2. We can create a framework structure.
-    3. We can Add Logging and extentnce report generation
+    2. We can test the other scenarios in first one.
+    3. We can Add Logging and extent report generation
 2.	If this test was part of a much larger test set, how would you speed it up?
     Ans: 
     1. Reuse this test, and create reusables from this code
