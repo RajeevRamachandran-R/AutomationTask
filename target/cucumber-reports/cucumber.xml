@@ -1,34 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="43.675342">
-<testcase classname="UI automation Scenarios" name="verify that the calculator working with User Input" time="12.047435">
-<failure message="junit.framework.ComparisonFailure: expected:&lt;[41,775]&gt; but was:&lt;[$479,000]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at PageMethods.HomePage.clickAndButtonAndVerifyEstimatedLoanAmount(HomePage.java:74)&#13;&#10;&#9;at stepdefinitions.TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(TestStepDefinitions.java:38)&#13;&#10;&#9;at ✽.user will verify the eatimated loan Amount with &quot;$479,000&quot;(file:src/test/resources/features/UIScenarios.feature:10)&#13;&#10;"><![CDATA[Given user navigate to site.................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="28.841619">
+<testcase classname="UI automation Scenarios" name="verify that the calculator working with User Input" time="9.716366">
+<failure message="junit.framework.AssertionFailedError: expected:&lt;479000&gt; but was:&lt;508000&gt;&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:57)&#13;&#10;&#9;at junit.framework.Assert.failNotEquals(Assert.java:329)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:78)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:234)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:241)&#13;&#10;&#9;at PageMethods.HomePage.clickAndButtonAndVerifyEstimatedLoanAmount(HomePage.java:75)&#13;&#10;&#9;at stepdefinitions.TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(TestStepDefinitions.java:38)&#13;&#10;&#9;at ✽.user will verify the eatimated loan Amount with &quot;$479,000&quot;(file:src/test/resources/features/UIScenarios.feature:10)&#13;&#10;"><![CDATA[Given user navigate to site.................................................passed
 And user fill the below fields..............................................passed
 Then user will verify the eatimated loan Amount with "$479,000".............failed
 
 StackTrace:
-junit.framework.ComparisonFailure: expected:<[41,775]> but was:<[$479,000]>
-	at junit.framework.Assert.assertEquals(Assert.java:100)
-	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at PageMethods.HomePage.clickAndButtonAndVerifyEstimatedLoanAmount(HomePage.java:74)
+junit.framework.AssertionFailedError: expected:<479000> but was:<508000>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:234)
+	at junit.framework.Assert.assertEquals(Assert.java:241)
+	at PageMethods.HomePage.clickAndButtonAndVerifyEstimatedLoanAmount(HomePage.java:75)
 	at stepdefinitions.TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(TestStepDefinitions.java:38)
 	at ✽.user will verify the eatimated loan Amount with "$479,000"(file:src/test/resources/features/UIScenarios.feature:10)
 ]]></failure>
 </testcase>
-<testcase classname="UI automation Scenarios" name="verify that the calculator working with User Input 2" time="17.587123">
+<testcase classname="UI automation Scenarios" name="verify that the calculator working with User Input 2" time="12.198051">
 <system-out><![CDATA[Given user navigate to site.................................................passed
 And user fill the below fields..............................................passed
 Then user will verify clicking start over button clear the form.............passed
 ]]></system-out>
 </testcase>
-<testcase classname="UI automation Scenarios" name="verify that the calculator working with User Input 3" time="14.040784">
-<failure message="junit.framework.ComparisonFailure: expected:&lt;...ns, call us on 1800 [035 500].&gt; but was:&lt;...ns, call us on 1800 [100 641].&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at PageMethods.HomePage.verifyReturnMessage(HomePage.java:110)&#13;&#10;&#9;at stepdefinitions.TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button(TestStepDefinitions.java:48)&#13;&#10;&#9;at ✽.user will verify the message after clicking Work out how much I could borrow button(file:src/test/resources/features/UIScenarios.feature:26)&#13;&#10;"><![CDATA[Given user navigate to site.................................................passed
+<testcase classname="UI automation Scenarios" name="verify that the calculator working with User Input 3" time="6.927202">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;...ns, call us on 1800 [100 641].&gt; but was:&lt;...ns, call us on 1800 [035 500].&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at PageMethods.HomePage.verifyReturnMessage(HomePage.java:111)&#13;&#10;&#9;at stepdefinitions.TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button(TestStepDefinitions.java:48)&#13;&#10;&#9;at ✽.user will verify the message after clicking Work out how much I could borrow button(file:src/test/resources/features/UIScenarios.feature:26)&#13;&#10;"><![CDATA[Given user navigate to site.................................................passed
 And user fill the below fields..............................................passed
 Then user will verify the message after clicking Work out how much I could borrow button.failed
 
 StackTrace:
-junit.framework.ComparisonFailure: expected:<...ns, call us on 1800 [035 500].> but was:<...ns, call us on 1800 [100 641].>
+junit.framework.ComparisonFailure: expected:<...ns, call us on 1800 [100 641].> but was:<...ns, call us on 1800 [035 500].>
 	at junit.framework.Assert.assertEquals(Assert.java:100)
 	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at PageMethods.HomePage.verifyReturnMessage(HomePage.java:110)
+	at PageMethods.HomePage.verifyReturnMessage(HomePage.java:111)
 	at stepdefinitions.TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button(TestStepDefinitions.java:48)
 	at ✽.user will verify the message after clicking Work out how much I could borrow button(file:src/test/resources/features/UIScenarios.feature:26)
 ]]></failure>

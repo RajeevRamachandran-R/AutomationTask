@@ -83,7 +83,7 @@ formatter.match({
   "location": "TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(String)"
 });
 formatter.result({
-  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[41,775]\u003e but was:\u003c[$479,000]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat PageMethods.HomePage.clickAndButtonAndVerifyEstimatedLoanAmount(HomePage.java:74)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(TestStepDefinitions.java:38)\r\n\tat ✽.user will verify the eatimated loan Amount with \"$479,000\"(file:src/test/resources/features/UIScenarios.feature:10)\r\n",
+  "error_message": "junit.framework.AssertionFailedError: expected:\u003c479000\u003e but was:\u003c508000\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:234)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:241)\r\n\tat PageMethods.HomePage.clickAndButtonAndVerifyEstimatedLoanAmount(HomePage.java:75)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(TestStepDefinitions.java:38)\r\n\tat ✽.user will verify the eatimated loan Amount with \"$479,000\"(file:src/test/resources/features/UIScenarios.feature:10)\r\n",
   "status": "failed"
 });
 formatter.after({
@@ -224,7 +224,7 @@ formatter.match({
   "location": "TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button()"
 });
 formatter.result({
-  "error_message": "junit.framework.ComparisonFailure: expected:\u003c...ns, call us on 1800 [035 500].\u003e but was:\u003c...ns, call us on 1800 [100 641].\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat PageMethods.HomePage.verifyReturnMessage(HomePage.java:110)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button(TestStepDefinitions.java:48)\r\n\tat ✽.user will verify the message after clicking Work out how much I could borrow button(file:src/test/resources/features/UIScenarios.feature:26)\r\n",
+  "error_message": "junit.framework.ComparisonFailure: expected:\u003c...ns, call us on 1800 [100 641].\u003e but was:\u003c...ns, call us on 1800 [035 500].\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat PageMethods.HomePage.verifyReturnMessage(HomePage.java:111)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button(TestStepDefinitions.java:48)\r\n\tat ✽.user will verify the message after clicking Work out how much I could borrow button(file:src/test/resources/features/UIScenarios.feature:26)\r\n",
   "status": "failed"
 });
 formatter.after({

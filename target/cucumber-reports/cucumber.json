@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-06T15:15:00.713Z",
+        "start_timestamp": "2021-10-07T06:36:49.666Z",
         "before": [
           {
             "result": {
-              "duration": 2226143800,
+              "duration": 2477800200,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 317296500,
+              "duration": 200242400,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7833651700,
+              "duration": 5135846400,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1435859900,
+              "duration": 1611281400,
               "status": "passed"
             },
             "line": 7,
@@ -89,8 +89,8 @@
           },
           {
             "result": {
-              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[41,775]\u003e but was:\u003c[$479,000]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat PageMethods.HomePage.clickAndButtonAndVerifyEstimatedLoanAmount(HomePage.java:74)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(TestStepDefinitions.java:38)\r\n\tat ✽.user will verify the eatimated loan Amount with \"$479,000\"(file:src/test/resources/features/UIScenarios.feature:10)\r\n",
-              "duration": 188966900,
+              "error_message": "junit.framework.AssertionFailedError: expected:\u003c479000\u003e but was:\u003c508000\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:234)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:241)\r\n\tat PageMethods.HomePage.clickAndButtonAndVerifyEstimatedLoanAmount(HomePage.java:75)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_eatimated_loan_Amount_with(TestStepDefinitions.java:38)\r\n\tat ✽.user will verify the eatimated loan Amount with \"$479,000\"(file:src/test/resources/features/UIScenarios.feature:10)\r\n",
+              "duration": 229429900,
               "status": "failed"
             },
             "line": 10,
@@ -117,11 +117,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-06T15:15:12.774Z",
+        "start_timestamp": "2021-10-07T06:36:59.394Z",
         "before": [
           {
             "result": {
-              "duration": 1397223400,
+              "duration": 1720957400,
               "status": "passed"
             },
             "match": {
@@ -136,7 +136,7 @@
         "after": [
           {
             "result": {
-              "duration": 4079632200,
+              "duration": 4105000000,
               "status": "passed"
             },
             "match": {
@@ -149,7 +149,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10885569700,
+              "duration": 4812633700,
               "status": "passed"
             },
             "line": 14,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 937584900,
+              "duration": 1206560200,
               "status": "passed"
             },
             "line": 15,
@@ -203,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 283030400,
+              "duration": 347467400,
               "status": "passed"
             },
             "line": 18,
@@ -224,11 +224,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-06T15:15:30.362Z",
+        "start_timestamp": "2021-10-07T06:37:11.593Z",
         "before": [
           {
             "result": {
-              "duration": 1514283600,
+              "duration": 1493206700,
               "status": "passed"
             },
             "match": {
@@ -243,7 +243,7 @@
         "after": [
           {
             "result": {
-              "duration": 4115415800,
+              "duration": 201214800,
               "status": "passed"
             },
             "match": {
@@ -256,7 +256,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7933022600,
+              "duration": 4582429700,
               "status": "passed"
             },
             "line": 22,
@@ -268,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 197128100,
+              "duration": 260736900,
               "status": "passed"
             },
             "line": 23,
@@ -292,8 +292,8 @@
           },
           {
             "result": {
-              "error_message": "junit.framework.ComparisonFailure: expected:\u003c...ns, call us on 1800 [035 500].\u003e but was:\u003c...ns, call us on 1800 [100 641].\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat PageMethods.HomePage.verifyReturnMessage(HomePage.java:110)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button(TestStepDefinitions.java:48)\r\n\tat ✽.user will verify the message after clicking Work out how much I could borrow button(file:src/test/resources/features/UIScenarios.feature:26)\r\n",
-              "duration": 277302000,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c...ns, call us on 1800 [100 641].\u003e but was:\u003c...ns, call us on 1800 [035 500].\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat PageMethods.HomePage.verifyReturnMessage(HomePage.java:111)\r\n\tat stepdefinitions.TestStepDefinitions.user_will_verify_the_message_after_clicking_Work_out_how_much_I_could_borrow_button(TestStepDefinitions.java:48)\r\n\tat ✽.user will verify the message after clicking Work out how much I could borrow button(file:src/test/resources/features/UIScenarios.feature:26)\r\n",
+              "duration": 383834900,
               "status": "failed"
             },
             "line": 26,
